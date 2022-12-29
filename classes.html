@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<link rel="stylesheet" href="style.css">
+</head>
+<body style="background-image: url(default.jpg); background-size: 100% 100%; height: 1500px">
+	<div class="d-flex">
+		<div class="player-info-1" style="background-image: url(wait.png);">
+			<h2>Игрок 1</h2>
+			<img src="dice.png" class="dice1 w-50">
+			<div class="dicecount1" style="border-radius: 50px; width: 50px; height: 50px; background-color: black; margin-left: auto; margin-right: auto; color: white;">0</div>
+			<h5>Деньги: <span class="player1_money">0</span>$</h5>
+			<div class="player1_companies">
+				<p class="companies">Купленные компании:</p>
+				<h5 class="companyname1"></h5>
+			</div>
+		</div>
+		<div class="content">
+			<img src="player1.png" class="player1" style="top:145px; left:20px; height: 70px; width: 50px">
+			<img src="player2.png" class="player2" style="top:145px; left:70px; height: 70px; width: 50px">
+			<!--первая линия-->
+			<div class="boxs top-bottom-side" style="left: 20px; top:145px">
+				<h4>START</h4>
+			</div>
+			<div class="boxs top-bottom-side" style="left: 130px; top:145px">
+				<img src="roztor.png" class="img" alt="">
+			</div>
+			<div class="boxs top-bottom-side" style="left: 240px; top:145px">
+				<img src="aigul.png" class="img" alt="">
+			</div>
+			<div class="boxs top-bottom-side" style="left: 350px; top:145px; background-image: url(fight.png); background-size: 100% 100%;"></div>
+
+			<div class="boxs top-bottom-side" style="left: 460px; top:145px">
+				<img src="hozmarket.png" class="img" alt="">
+			</div>
+			<div class="boxs top-bottom-side" style="left: 570px; top:145px">
+				<img src="bershka.png" alt="" class="img">
+			</div>
+			<div class="boxs top-bottom-side" style="left: 680px;   top:145px; background-image: url(plane.png); background-size: 100% 100%;"></div>
+
+			<div class="boxs top-bottom-side" style="left: 790px; top:145px">
+				<img src="zara.png" alt="" class="img">
+			</div>
+			<div class="boxs top-bottom-side" style="left: 900px; top:145px">
+				<img src="hm.png" alt="" class="img">
+			</div>
+			<div class="boxs top-bottom-side" style="left: 1010px;  top:145px; background-image: url(fight.png); background-size: 100% 100%;"></div>
+
+			<!--вторая линия-->
+			<div class="boxs top-bottom-side" style="left: 1120px; top:145px">10
+				<p>иди назад на -5 клеток</p>
+			</div>
+			<div class="boxs left-right-side" style="left: 1120px; top: 300px">
+				<img src="burgerking.png" alt="" class="img">
+			</div>
+			<div class="boxs left-right-side" style="left: 1120px; top: 410px">
+				<img src="kfc.png" alt="" class="img">
+			</div>
+			<div class="boxs left-right-side" style="left: 1120px; top: 520px; background-image: url(plane.png); background-size: 100% 100%;"></div>
+
+			<div class="boxs left-right-side" style="left: 1120px;top: 630px">
+				<img src="mcdonalds.png" alt="" class="img">
+			</div>
+			<div class="boxs left-right-side" style="left: 1120px; top: 740px">
+				<img src="amd.png" alt="" class="img">
+			</div>
+			<div class="boxs left-right-side" style="left: 1120px; top: 850px; background-image: url(fight.png); background-size: 100% 100%;"></div>
+
+			<div class="boxs left-right-side" style="left: 1120px; top: 960px; background-image: url(fight.png); background-size: 100% 100%;"></div>
+			<div class="boxs left-right-side" style="left: 1120px; top: 1070px">
+				<img src="intel.png" alt="" class="img">
+			</div>
+			<div class="boxs left-right-side" style="left: 1120px; top: 1180px">
+				<img src="nvidia.svg"  alt="" class="img" >
+			</div>
+
+			<!--третья линия-->
+			<div class="boxs top-bottom-side" style="left: 1120px; top: 1330px; background-image: url(prison.png); background-size: 100% 100%;"></div>
+
+			<div class="boxs top-bottom-side" style="left: 1010px; top: 1330px; background-image: url(fight.png); background-size: 100% 100%;"></div>
+			<div class="boxs top-bottom-side" style="left: 900px; top: 1330px">
+				<img src="twitter.png"  alt="" class="img" >
+			</div>
+			<div class="boxs top-bottom-side" style="left: 790px; top: 1330px; background-image: url(plane.png); background-size: 100% 100%;"></div>
+
+			<div class="boxs top-bottom-side" style="left: 680px; top: 1330px">
+				<img src="microsoft.png" alt="" class="img">
+			</div>
+			<div class="boxs top-bottom-side" style="left: 570px; top: 1330px; background-image: url(fight.png); background-size: 100% 100%;"></div>
+			<div class="boxs top-bottom-side" style="left: 460px; top: 1330px">
+				<img src="epicgames.png" alt="" class="img">
+			</div>
+
+			<div class="boxs top-bottom-side" style="left: 350px; top: 1330px">
+				<img src="ubisoft.png" alt="" class="img">
+			</div>
+			<div class="boxs top-bottom-side" style="left: 240px; top: 1330px; background-image: url(plane.png); background-size: 100% 100%;"></div>
+			<div class="boxs top-bottom-side" style="left: 130px; top: 1330px">
+				<img src="blizzard.svg" alt="" class="img">
+			</div>
+
+			<!--четвертая линия-->
+			<div class="boxs top-bottom-side" style="left: 20px; top: 1330px; background-image: url(computer.png); background-size: 100% 100%;"></div>
+
+			<div class="boxs left-right-side" style="left: 20px; top: 1180px">
+				<img src="lv.png" alt="" class="img">
+			</div>
+			<div class="boxs left-right-side" style="left: 20px; top: 1070px">
+				<img src="chanel.png" alt="" class="img">
+			</div>
+			<div class="boxs left-right-side" style="left: 20px; top: 960px; background-image: url(fight.png); background-size: 100% 100%;"></div>
+
+			<div class="boxs left-right-side" style="left: 20px; top: 850px">
+				<img src="gucci.png " alt="" class="img">
+			</div>
+			<div class="boxs left-right-side" style="left: 20px; top: 740px; background-image: url(texty.png); background-size: 100% 100%;"></div>
+			<div class="boxs left-right-side" style="left: 20px; top: 630px">
+				<img src="amazon.png" alt="" class="img">
+			</div>
+
+			<div class="d-flex">
+				<h1 class="m-auto text-center">Бюджет банка: <p class="bankmoney text-center"></p></h1>
+			</div>
+
+			<div class="boxs left-right-side" style="left: 20px; top: 520px">
+				<img class="img" src="apple.png" alt="">
+			</div>
+			<div class="boxs left-right-side" style="left: 20px; top: 410px; background-image: url(death.png); background-size: 100% 100%;"></div>
+			<div class="boxs left-right-side" style="left: 20px; top:300px">
+				<img class="img" src="spacex.png" alt="">
+			</div>
+		</div>
+		<div class="player-info-2" style="background-image: url(wait.png)";>
+		<h2>Игрок 2</h2>
+		<img src="dice.png" class="dice2 w-50" >
+		<div class="dicecount2" style="border-radius: 50px; width: 50px; height: 50px; background-color: black; margin-left: auto; margin-right: auto; color: white;">0</div>
+		<h5>Деньги: <span class="player2_money">0</span>$</h5>
+		<div class="player2_companies">
+			<p class="companies">Купленные компании: </p>
+			<h5 class="companyname2"></h5>
+		</div>
+	</div>
+</div>
+<script type="text/javascript">
+	let checkplayer = 1
+	moneycounts = [150, 200, 250, 300, 350, 400, 500, 600, 700, 750]
+
+	class Player{
+		dice;
+		dicenumber;
+		wallet;
+		figure;
+		purch_comp;
+
+        step = 0;
+        money = 1500;
+        prisonstep = 0
+
+        enemyid;
+        playerid;
+
+        constructor(arg){
+        	let random = function(arg){
+            let rand = Math.random() * arg
+            let round = Math.round(rand)
+            return round
+          }
+        
+        	this.playerid = arg
+        	this.dice = document.querySelector(".dice" + arg)
+        	this.number = document.querySelector(".dicecount" + arg)
+        	this.wallet = document.querySelector(".player" + arg + "_money")
+        	this.figure = document.querySelector(".player" + arg)
+        	this.purch_comp = document.querySelector(".companyname" + arg)
+          this.wallet.innerHTML = this.money
+        	
+          
+        	console.log(this.wallet)
+        	if (arg == 1){
+        		this.enemyid = 2
+        	}else{
+        		this.enemyid = 1
+        	}
+        let self = this;
+        	this.dice.onclick = function(){
+        		if (checkplayer === arg){
+        			
+        			let rand = Math.random() * 5
+              let round = Math.round(rand) + 1
+              console.log(self.step) 
+              if (self.step >= 0){
+              	if (self.prisonstep == 0) {
+              		self.step += 1
+              	} else{
+                  self.step += 0
+                }
+                 
+                 self.payingtax(self.money, self.wallet, random(8), self.step)
+                 self.shans(self.money, self.wallet, random(8), self.step)
+                 self.down()
+                 self.prison()
+              } 
+              if (self.step >= 39){
+              	self.step = 0
+              	
+              }
+        		}else{
+        			alert("Ждем игрока " + self.enemyid)
+        		}
+
+        		checkplayer = self.enemyid
+        		self.figure.style.top = boxes[self.step].style.top
+		        self.figure.style.left = boxes[self.step].style.left
+        	}
+        }
+
+        payingtax(money,koshel,random,step){
+        	   if (step == 3 || step == 9 || step == 16 || step == 17 || step == 21 || step == 25 || step == 33){
+        	   	 let tax = moneycounts[random]
+               money = money - tax
+               koshel.innerHTML = money
+               alert("Игрок " + this.playerid + ", списано " + tax)
+        	   }
+        }
+        shans(money,koshel,random,step){
+        	   if (step == 6 || step == 13 || step == 23 || step == 28){
+        	   	 let shans = moneycounts[random]
+               money = money + shans
+               koshel.innerHTML = money
+               alert("Игрок " + this.playerid + ", добавлено " + shans)
+        	   }
+        }
+        down(){
+        	   if (this.step == 10){
+        	   	 this.step = this.step - 5
+        	   }
+        }
+        prison(){
+        	   if (this.step == 30){
+        	   	 this.prisonstep = 2
+               this.step = 20
+               alert("Игрок " + this.playerid + ", попал в тюрьму")
+        	   }
+        	   if (this.prisonstep > 0){
+                  this.prisonstep = this.prisonstep - 1
+             }
+        }
+
+
+	}
+
+	let boxes = document.querySelectorAll(".boxs")
+	boxes[1].company = {
+      name: "Розтор",
+      price: 150,
+      owner: 0
+    }
+    boxes[2].company = {
+      name: "Айгуль",
+      price: 150,
+      owner: 0
+    }
+    boxes[3].company = {
+      
+    }
+    boxes[4].company = {
+      name: "Хозмаркет",
+      price: 150,
+      owner: 0
+    }
+    boxes[5].company = {
+      name: "Бершка",
+      price: 150,
+      owner: 0
+    }
+    boxes[6].company = {
+      
+    }
+    boxes[7].company = {
+      name: "Зара",
+      price: 150,
+      owner: 0
+    }
+    boxes[8].company = {
+      name: "ЭйчЭндЭМ",
+      price: 150,
+      owner: 0
+    }
+    boxes[9].company = {
+      
+    }
+    boxes[10].company = {
+      
+    }
+    boxes[11].company = {
+      name: "Бургер кинг",
+      price: 150,
+      owner: 0
+    }
+    boxes[12].company = {
+      name: "КФС",
+      price: 150,
+      owner: 0
+    }
+    boxes[13].company = {
+      
+    }
+    boxes[14].company = {
+      name: "Макдональдс",
+      price: 150,
+      owner: 0
+    }
+    boxes[15].company = {
+      name: "АМД",
+      price: 150,
+      owner: 0
+    }
+    boxes[16].company = {
+      
+    }
+    boxes[17].company = {
+      
+    }
+    boxes[18].company = {
+      name: "Интел",
+      price: 150,
+      owner: 0
+    }
+    boxes[19].company = {
+      name: "Нвидиа",
+      price: 150,
+      owner: 0
+    }
+    boxes[20].company = {
+      
+    }
+    boxes[21].company = {
+      
+    }
+    boxes[22].company = {
+      name: "Твиттер",
+      price: 150,
+      owner: 0
+    }
+    boxes[23].company = {
+      
+    }
+    boxes[24].company = {
+      name: "Майкрософт",
+      price: 150,
+      owner: 0
+    }
+    boxes[25].company = {
+      
+    }
+    boxes[26].company = {
+      name: "Эпик Геймс",
+      price: 150,
+      owner: 0
+    }
+    boxes[27].company = {
+      name: "Юбисофт",
+      price: 150,
+      owner: 0
+    }
+    boxes[28].company = {
+      
+    }
+    boxes[29].company = {
+      name: "Близзард",
+      price: 150,
+      owner: 0
+    }
+    boxes[30].company = {
+      
+    }
+    boxes[31].company = {
+      name: "Луи Витон",
+      price: 150,
+      owner: 0
+    }
+    boxes[32].company = {
+      name: "Шанель",
+      price: 150,
+      owner: 0
+    }
+    boxes[33].company = {
+      
+    }
+    boxes[34].company = {
+      name: "Гуччи",
+      price: 150,
+      owner: 0
+    }
+    boxes[35].company = {
+      
+    }
+    boxes[36].company = {
+      name: "Амазон",
+      price: 150,
+      owner: 0
+    }
+    boxes[37].company = {
+      name: "Эпл",
+      price: 150,
+      owner: 0
+    }
+    boxes[38].company = {
+      
+    }
+    boxes[39].company = {
+      name: "Спэйс Икс",
+      price: 150,
+      owner: 0
+    }
+
+    let player1 = new Player(1)
+    let player2 = new Player(2) 
+</script>
+</body>
+</html>
